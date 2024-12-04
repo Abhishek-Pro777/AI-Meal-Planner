@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Meal Planner</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>AI Meal Planner</h1>
+    </header>
+    
+    <form method="POST">
+        <label for="dietary_restrictions">Select Your Dietary Restriction:</label>
+        <select id="dietary_restrictions" name="dietary_restrictions">
+            <option value="">-- Select an option --</option>
+            <option value="vegan">Vegan</option>
+            <option value="vegetarian">Vegetarian</option>
+            <option value="non-vegetarian">Non-Vegetarian</option>
+            <option value="paleo">Paleo</option>
+            <option value="low-carb">Low-Carb</option>
+        </select>
+
+        <label for="allergies">Select Food Allergies (Hold down Ctrl/Cmd for multiple):</label>
+        <select id="allergies" name="allergies" multiple>
+            <option value="gluten">Gluten</option>
+            <option value="nuts">Nuts</option>
+            <option value="dairy">Dairy</option>
+            <option value="soy">Soy</option>
+            <option value="eggs">Eggs</option>
+            <option value="fish">Fish</option>
+            <option value="seafood">Seafood</option>
+            <option value="none">None</option>
+        </select>
+        <small>Hold down the Ctrl (Windows) or Command (Mac) key to select multiple options.</small>
+
+        <label for="health_conditions">Select Health Conditions (Hold down Ctrl/Cmd for multiple):</label>
+        <select id="health_conditions" name="health_conditions" multiple>
+            <option value="diabetes">Diabetes</option>
+            <option value="high cholesterol">High Cholesterol</option>
+            <option value="high blood pressure">High Blood Pressure</option>
+            <option value="lactose intolerance">Lactose Intolerance</option>
+            <option value="none">None</option>
+        </select>
+        <small>Hold down the Ctrl (Windows) or Command (Mac) key to select multiple options.</small>
+
+        <button type="submit">Generate Meal Plan</button>
+    </form>
+
+    {% if meal_plan %}
+    <h2>Your Weekly Meal Plan</h2>
+    <table style="width: 100%; border-collapse: collapse; margin-top: 20px;">
+        <thead>
+            <tr>
+                <th style="border: 1px solid #dee2e6; padding: 10px; background-color: #007bff; color: white;">Day</th>
+                <th style="border: 1px solid #dee2e6; padding: 10px; background-color: #007bff; color: white;">Breakfast</th>
+                <th style="border: 1px solid #dee2e6; padding: 10px; background-color: #007bff; color: white;">Lunch</th>
+                <th style="border: 1px solid #dee2e6; padding: 10px; background-color: #007bff; color: white;">Dinner</th>
+                <th style="border: 1px solid #dee2e6; padding: 10px; background-color: #007bff; color: white;">Snack</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for day, meals in meal_plan.items() %}
+            <tr>
+                <td style="border: 1px solid #dee2e6; padding: 10px;">{{ day }}</td>
+                <td style="border: 1px solid #dee2e6; padding: 10px;">{{ meals.breakfast }}</td>
+                <td style="border: 1px solid #dee2e6; padding: 10px;">{{ meals.lunch }}</td>
+                <td style="border: 1px solid #dee2e6; padding: 10px;">{{ meals.dinner }}</td>
+                <td style="border: 1px solid #dee2e6; padding: 10px;">{{ meals.snack }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% endif %}
+</body>
+</html>

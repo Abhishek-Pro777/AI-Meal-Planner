@@ -1,0 +1,132 @@
+meal_type,name,diet,allergens,health_conditions
+breakfast,Avocado Toast,vegan,gluten,none
+breakfast,Baguette with Jam,vegetarian,gluten,none
+breakfast,Croissants,non-vegetarian,eggs,none
+breakfast,Congee,vegan,none,none
+breakfast,Maso Soup,vegan,soy,none
+breakfast,Masala Dosa,vegetarian,gluten,none
+breakfast,Nasi Goreng,vegan,none,none
+breakfast,Oatmeal with Berries,vegan,gluten,diabetes
+breakfast,Poha,vegan,nuts,none
+breakfast,Smoothie Bowl,vegetarian,dairy,none
+dessert,ANZAC Biscuits,vegan,gluten,none
+dessert,Apple Pie,vegetarian,gluten,none
+dessert,Baklava,vegetarian,nuts,none
+dessert,Black Forest Cake,vegetarian,gluten,dairy
+dessert,Blini,vegetarian,gluten,none
+dessert,Churros,vegetarian,gluten,none
+dessert,Gelato,vegetarian,dairy,none
+dessert,Lamingtons,vegetarian,gluten,none
+dessert,Mango Sticky Rice,vegan,none,none
+dessert,Pavlova,vegetarian,none,none
+dessert,Risotto,vegetarian,dairy,none
+dessert,Tiramisu,non-vegetarian,eggs,dairy
+dinner,Baked Salmon with Asparagus,paleo,fish,none
+dinner,Beef Stroganoff,non-vegetarian,dairy,none
+dinner,Bulgogi,non-vegetarian,soy,none
+dinner,Butter Chicken,non-vegetarian,dairy,none
+dinner,Char Kway Teow,non-vegetarian,gluten,none
+dinner,Coq au Vin,non-vegetarian,gluten,none
+dinner,Doro Wat,non-vegetarian,none,none
+dinner,Duck Confit,non-vegetarian,gluten,none
+dinner,Green Curry,vegan,nuts,none
+dinner,Grilled Chicken with Vegetables,paleo,none,none
+dinner,Peking Duck,non-vegetarian,gluten,none
+dinner,Pizza,vegetarian,gluten,none
+dinner,Ramen,non-vegetarian,gluten,none
+dinner,Rendang,non-vegetarian,none,none
+dinner,Roast Beef,non-vegetarian,none,none
+dinner,Schnitzel,non-vegetarian,gluten,none
+dinner,Shepherd’s Pie,non-vegetarian,gluten,none
+dinner,Stir-fried Tofu with Broccoli,vegan,soy,none
+dinner,Vegetable Biryani,vegan,nuts,none
+lunch,Ackee and Saltfish,non-vegetarian,none,none
+lunch,Asado,non-vegetarian,none,none
+lunch,Bobotie,non-vegetarian,none,none
+lunch,Borscht,vegan,none,none
+lunch,Bratwurst,non-vegetarian,gluten,none
+lunch,Bun Cha,non-vegetarian,none,none
+lunch,Burgers,non-vegetarian,gluten,none
+lunch,Bunny Chow,non-vegetarian,gluten,none
+lunch,Chana Masala,vegan,none,high cholesterol
+lunch,Chimichurri,vegan,none,none
+lunch,Churrasco,non-vegetarian,none,none
+lunch,Couscous,vegan,gluten,none
+lunch,Dumplings,vegetarian,gluten,none
+lunch,Egusi Soup,vegan,nuts,none
+lunch,Empanadas,non-vegetarian,gluten,none
+lunch,Enchiladas,non-vegetarian,gluten,none
+lunch,Feijoada,non-vegetarian,none,none
+lunch,Fish and Chips,non-vegetarian,gluten,none
+lunch,Fried Chicken,non-vegetarian,gluten,none
+lunch,Fufu,vegan,none,none
+lunch,Gado-Gado,vegan,nuts,none
+lunch,Gazpacho,vegan,none,none
+lunch,Ghormeh Sabzi,non-vegetarian,none,none
+lunch,Hangi,non-vegetarian,none,none
+lunch,Injera,vegan,gluten,none
+lunch,Jerk Chicken,non-vegetarian,none,none
+lunch,Jollof Rice,vegan,none,none
+lunch,Kenkey,vegan,none,none
+lunch,Kebab,non-vegetarian,none,none
+lunch,Laksa,non-vegetarian,gluten,none
+lunch,Lentil Soup,vegan,none,high blood pressure
+lunch,Meat Pies,non-vegetarian,gluten,none
+lunch,Meze,vegetarian,none,none
+lunch,Mole,vegan,nuts,none
+lunch,Moussaka,non-vegetarian,gluten,none
+lunch,Noodles,vegan,gluten,none
+lunch,Pad Thai,vegetarian,gluten,none
+lunch,Paella,non-vegetarian,seafood,none
+lunch,Palak Paneer,vegetarian,dairy,none
+lunch,Pasta,vegetarian,gluten,none
+lunch,Pastilla,non-vegetarian,gluten,none
+lunch,Pho,vegan,none,none
+lunch,Pide,non-vegetarian,gluten,none
+lunch,Poi,vegan,none,none
+lunch,Quiche Lorraine,non-vegetarian,eggs,dairy
+lunch,Quinoa Salad,vegetarian,nuts,high cholesterol
+lunch,Ratatouille,vegetarian,none,none
+lunch,Roti,vegetarian,gluten,none
+lunch,Saffron Rice,vegan,none,none
+lunch,Shawarma,non-vegetarian,none,none
+lunch,Sushi,non-vegetarian,fish,none
+lunch,Tagine,non-vegetarian,none,none
+lunch,Tacos,vegan,none,none
+lunch,Tamales,non-vegetarian,gluten,none
+lunch,Turkey Wrap,low-carb,gluten,diabetes
+lunch,Waakye,vegan,none,none
+snack,Apple Slices with Almond Butter,vegan,nuts,none
+snack,Banh Mi,non-vegetarian,gluten,none
+snack,Biltong,non-vegetarian,none,none
+snack,Braai,non-vegetarian,none,none
+snack,Crème Brûlée,non-vegetarian,eggs,dairy
+snack,Dim Sum,vegetarian,gluten,none
+snack,Falafel,vegan,gluten,none
+snack,Fresh Spring Rolls,vegan,none,none
+snack,Greek Yogurt with Honey,vegetarian,dairy,lactose intolerance
+snack,Guacamole,vegan,none,none
+snack,Hummus,vegan,none,none
+snack,Hummus and Carrot Sticks,vegan,none,none
+snack,Kimchi,vegan,none,none
+snack,Korean BBQ,non-vegetarian,none,none
+snack,Mille-Feuille,non-vegetarian,eggs,dairy
+snack,Nasi Lemak,non-vegetarian,nuts,none
+snack,Paneer Tikka,vegetarian,dairy,none
+snack,Pelmeni,non-vegetarian,gluten,none
+snack,Pretzels,vegetarian,gluten,none
+snack,Roti Canai,vegetarian,gluten,none
+snack,Samosa,vegetarian,gluten,potato allergy
+snack,Satay,non-vegetarian,nuts,none
+snack,Souvlaki,non-vegetarian,none,none
+snack,Stir-fries,vegan,soy,none
+snack,Suya,non-vegetarian,none,none
+snack,Tapas,vegetarian,gluten,none
+snack,Tempura,vegetarian,gluten,none
+snack,Tom Yum Soup,vegan,none,none
+snack,Tortilla Española,vegetarian,eggs,none
+snack,Tzatziki,vegetarian,dairy,none
+snack,Vegemite,vegan,gluten,none
+snack,Yorkshire Pudding,vegetarian,gluten,none
+soup,Clam Chowder,non-vegetarian,seafood,none
+soup,Harira,vegan,none,none

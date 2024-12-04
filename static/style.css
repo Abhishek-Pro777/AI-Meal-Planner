@@ -1,0 +1,156 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Light background for better contrast */
+    color: #495057; /* Darker text color for readability */
+}
+
+header {
+    background-color: #007bff; /* Primary color for header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px 8px 0 0; /* Rounded corners for header */
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em; /* Larger font size for the title */
+}
+
+/* Form Styles */
+form {
+    background-color: white; /* White background for form */
+    border-radius: 8px; /* Rounded corners for form */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin: 20px auto; /* Center the form */
+    max-width: 500px; /* Max width for form */
+}
+
+label {
+    font-weight: bold; /* Bold labels for better visibility */
+    display: block;
+    margin-top: 10px;
+}
+
+select, button {
+    display: block;
+    margin-top: 5px;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px; /* Consistent width for inputs */
+    border: 1px solid #ced4da; /* Light border for inputs */
+    border-radius: 4px; /* Rounded corners for inputs */
+    font-size: 1em; /* Consistent font size */
+}
+
+select {
+    margin-bottom: 15px; /* Adds space between dropdowns */
+}
+
+button {
+    background-color: #007bff; /* Primary button color */
+    color: white;
+    border: none; /* No border for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
+    margin-top: 20px; /* Adds space between the last dropdown and the submit button */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    transform: scale(1.05); /* Slight scale effect */
+}
+
+select:focus, button:focus {
+    outline: none; /* Remove default outline */
+    border-color: #007bff; /* Highlight with blue border */
+}
+
+/* List Styles */
+ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+    background-color: white; /* White background for list */
+    border-radius: 8px; /* Rounded corners for list */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin-top: 20px; /* Space above the list */
+}
+
+li {
+    margin-bottom: 15px; /* Space between list items */
+    padding: 15px; /* Padding inside list items */
+    border-bottom: 1px solid #dee2e6; /* Light border between items */
+}
+
+li:last-child {
+    border-bottom: none; /* Remove border from last item */
+}
+
+p {
+    margin: 5px 0; /* Space between paragraphs */
+}
+
+small {
+    color: #6c757d; /* Lighter color for small text */
+}
+
+/* Table Styles for Meal Plan */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #dee2e6;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+td {
+    background-color: #f8f9fa;
+}
+
+tr:nth-child(even) td {
+    background-color: #e9ecef; /* Alternating row colors */
+}
+
+tr:hover td {
+    background-color: #d6e0f0; /* Hover effect */
+}
+
+/* Error Message Styling */
+.error-message {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px; /* Slightly smaller text on mobile */
+    }
+
+    form {
+        width: 90%; /* Adjust the form width for small screens */
+    }
+
+    select, button {
+        width: 100%; /* Make inputs and buttons full width */
+    }
+
+    table {
+        font-size: 0.9em; /* Slightly smaller font for tables on mobile */
+    }
+}
